@@ -1,0 +1,53 @@
+.carlocations {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.carlocationcontainer {
+  padding: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.carlocationcontainer h1 {
+  margin: 10px;
+}
+.carlocations {
+  display: flex;
+}
+.container {
+  align-items: center;
+  border-bottom: 1px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.container p {
+  font-size: 12px;
+}
+.cardimg {
+  width: 160px;
+  height: 85px;
+}
+.carlocationcontainer2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 30px;
+  justify-content: center;
+}
+.carlocationcontainer2 h4 {
+  align-items: center;
+  justify-content: center;
+}
+.droplistCarLoc {
+  width: 265px;
+  height: 40px;
+  padding-left: 20px;
+}
+.locationform {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.locationform p {
+  margin-left: -20px;
+}

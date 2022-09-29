@@ -1,0 +1,56 @@
+.carinfo {
+  width: 97%;
+  height: auto;
+  padding: 20px;
+  border-top: 0.2px;
+  box-shadow: 0px 0px 1px gray;
+}
+.carinfotab {
+  display: flex;
+  width: 35%;
+  justify-content: space-between;
+}
+.carinfotab li {
+  list-style: none;
+}
+.carinfotab li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  font-weight: 600;
+  cursor: pointer;
+}
+.carinfotab li a:hover {
+  color: orange;
+  text-decoration: underline;
+  flex-direction: column;
+}
+.carinfosection {
+  display: flex;
+}
+.imagesection {
+  padding: 10px;
+  display: flex;
+  width: 48%;
+  border-top: 0.2px;
+  box-shadow: 0px 0px 1px gray;
+}
+.Carinfoimg {
+  width: 270px;
+  height: 160px;
+  box-shadow: 0px 0px 1px gray;
+}
+.carinfotext {
+  padding: 10px;
+}
+.carinfotext p {
+  font-size: 13px;
+}
+.commentdetail {
+  margin-top: 10%;
+  display: flex;
+  align-items: center;
+}
+.commentdate {
+  margin-left: 20px;
+}

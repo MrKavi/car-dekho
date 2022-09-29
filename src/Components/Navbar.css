@@ -1,0 +1,63 @@
+.Navbar {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  box-shadow: 1px gray;
+  padding-right: 20px;
+  top: o;
+  position: sticky;
+}
+.searchtab {
+  padding: 10px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+}
+.searchtab input {
+  background: transparent;
+  outline: none;
+  padding: 6px;
+  flex: 1;
+  border-radius: 3px;
+}
+.searchicon {
+  cursor: pointer;
+  background-color: gray;
+  margin-left: -3px;
+  border: 0;
+  height: 36px;
+  width: 40;
+  border-radius: 3px;
+  padding: 2px;
+}
+.language {
+  outline: none;
+  border: none;
+}
+.language select {
+  outline: none;
+  border: none;
+}
+.hearticon {
+  border: 0;
+  cursor: pointer;
+}
+.loginarea {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: center;
+}
+.login {
+  height: 35px;
+  padding: 4px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.logo {
+  height: 70px;
+  width: 190px;
+}

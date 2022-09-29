@@ -1,0 +1,53 @@
+.carbudget {
+  width: 97%;
+  height: auto;
+  padding: 20px;
+  border-top: 0.2px;
+  box-shadow: 0px 0px 1px gray;
+}
+.carbudgettab {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+.carbudgettab li {
+  list-style: none;
+}
+.carbudgettab li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  font-weight: 600;
+  cursor: pointer;
+}
+.carbudgettab li a:hover {
+  color: orange;
+  text-decoration: underline;
+  flex-direction: column;
+}
+.carBudgetsection {
+  display: flex;
+  flex-direction: row;
+}
+.budgetimagesection {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 24%;
+  margin-left: 20px;
+}
+.Carinfoimg {
+  width: 270px;
+  height: 160px;
+}
+.carinfotext {
+  padding: 10px;
+}
+.carinfotext p {
+  font-size: 20px;
+}
+.distancedetail {
+  margin-top: 10%;
+  display: flex;
+  align-items: center;
+}
